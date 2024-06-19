@@ -1,0 +1,19 @@
+.rofl {
+    /* width: 300px; */
+     height: 400px; 
+} 
+.btn {
+    width:200px;
+    height: 250px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: blue;
+display: block;
+margin: 50px auto;
+}
+.btn:hover {
+    background-color: burlywood;
+}
+.btn:hover ~ .rofl {
+    display: none;
+}
